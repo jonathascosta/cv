@@ -2,110 +2,15 @@
 <html lang="en">
 
 <head>
-    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous"
-        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/open-iconic/1.1.1/font/css/open-iconic-bootstrap.css"
-        crossorigin="anonymous" integrity="sha256-CNwnGWPO03a1kOlAsGaH5g8P3dFaqFqqGFV/1nkX5OU=" />
-    <link href="https://fonts.googleapis.com/css?family=Oswald:300" rel="stylesheet" />
-    <style>
-        body {
-            font-family: 'Oswald', sans-serif;
-        }
-
-        footer {
-            background-color: gray;
-            color: white;
-            margin: -15px;
-            margin-top: 0px;
-            padding: 21px;
-            text-align: center;
-        }
-
-        footer span {
-            height: 100%;
-        }
-
-        .title {
-            background-color: #ca5858;
-        }
-
-        .contact {
-            background-color: #c24e4f;
-            border-left: dotted 1px white;
-            border-right: dotted 1px white;
-        }
-
-        .contact h3,
-        .summary h3,
-        .name {
-            color: white;
-        }
-
-        .summary {
-            background-color: #b94748;
-            color: white;
-        }
-
-        .summary p {
-            font-size: 1.15em;
-        }
-
-        .photo {
-            padding: 20px;
-            text-align: center;
-        }
-
-        .name {
-            text-align: center;
-        }
-
-        ul li span {
-            min-width: 17px;
-            margin-right: 3px;
-            text-align: right;
-        }
-
-        h1,
-        h3 {
-            font-weight: 900;
-            padding: 12px 0 12px;
-        }
-
-        .experience {
-            background-color: #55585e;
-            color: white;
-        }
-
-        .exp-role {
-            font-size: smaller;
-            font-style: italic;
-        }
-
-        .knowledge {
-            background-color: #ececec;
-        }
-
-        .skill-level {
-            padding-left: 0;
-        }
-
-        .skill-level div {
-            background-color: #c24e4f;
-            height: 20px;
-        }
-
-        .oi
-        {
-            padding-top: 5px;
-        }
-    </style>
+    <link href="../styles.css" rel="stylesheet" />
+    <script type="module" src="../experience-manager.js"></script>
 </head>
 
 <body class="container">
     <header class="row">
         <div class="title col-lg-3">
             <div class="photo">
-                <img class="rounded-circle" src="https://jonathascosta.github.io/cv/img/profile.jfif" />
+                <img class="rounded-circle" src="https://jonathascosta.github.io/cv/img/profile-pic.png" />
             </div>
             <div class="name">
                 <h1>Jonathas Costa</h1>
@@ -114,331 +19,68 @@
                 <ul class="list-group list-group-flush">
                     <li class="list-group-item">Software Architect</li>
                     <li class="list-group-item">Framework Designer</li>
-                    <li class="list-group-item">Team Lead</li>
-                    <li class="list-group-item">Senior Developer</li>
+                    <li class="list-group-item">Team/Tech Lead</li>
+                    <li class="list-group-item">Senior Software Engineer</li>
+                    <li class="list-group-item">Software Crafter</li>
                 </ul>
             </div>
         </div>
         <div class="contact col-lg-3">
             <h3>Contact Info</h3>
             <ul class="list-group list-group-flush">
-                <li class="list-group-item mobile">
+                <li class="list-group-item">
                     <span class="oi oi-phone"></span><br />
-                    +351 935 134 725</li>
-                <li class="list-group-item email">
+                    +351 935 134 725
+                </li>
+                <li class="list-group-item">
                     <span class="oi oi-envelope-closed"></span><br />
-                    jonathas.costa@gmail.com</li>
-                <li class="list-group-item email">
+                    jonathas.costa@gmail.com
+                </li>
+                <li class="list-group-item">
                     <span class="oi oi-briefcase"></span><br />
-                    www.linkedin.com/in/jonathas-costa</li>
-                <li class="list-group-item github">
+                    www.linkedin.com/in/jonathas-costa
+                </li>
+                <li class="list-group-item">
                     <span class="oi oi-beaker"></span><br />
-                    www.github.com/jonathascosta</li>
-                <li class="list-group-item youtube">
-                    <span class="oi oi-beaker"></span><br />
-                    www.youtube.com/@JonathasCosta</li>
-                <li class="list-group-item address">
+                    www.github.com/jonathascosta
+                </li>
+                <li class="list-group-item">
+                    <span class="oi oi-play-circle"></span><br />
+                    www.youtube.com/@JonathasCosta
+                </li>
+                <li class="list-group-item">
                     <span class="oi oi-home"></span><br />
-                    Porto, Portugal</li>
-                <li class="list-group-item address">
+                    Porto, Portugal
+                </li>
+                <li class="list-group-item">
                     <span class="oi oi-document"></span><br />
-                    jonathascosta.github.io/cv/en/</li>
+                    jonathascosta.github.io/cv/en/
+                </li>
             </ul>
         </div>
         <div class="summary col-lg-6">
-            <h3>About me</h3>
-            <p>Dedicated and hardworking with 20+ years of different positions in technology. 
-                Breadth and depth of experience in software development with several projects that span 
-                all phases of the software product life cycle.</p>
-            <p>I have worked on projects for major clients such as Farfetch, Sony Music, ICAP, Petrobras, TV Globo 
-                and ACN Europe, sometimes travelling to countries like United States and Mozambique, 
-                and sometimes working remotely to countries like Netherlands.</p>
-            <p>Passionate about Design Patterns and with a strong technical background, I am a "self-learner" 
-                and have been recognized with several certifications and awards during my career.</p>
+            <h3>About Me</h3>
+
+            <p>I started dabbling in software development at the age of fifteen and instantly knew this was my calling.
+                Fast forward to today, and that initial passion for algorithms and task automation hasn't waned—it's
+                grown stronger.</p>
+
+            <p> I've had the chance to be both a developer and an architect, always striving for innovation. My
+                experiences range from coding in cafés to collaborating with international clients. I've worked across
+                different time zones to meet client needs.</p>
+
+            <p> I'm a fan of Design Patterns, but it's not just a buzzword to me—it's a lifelong learning commitment.
+                Along the way, I've picked up invaluable lessons from each work experience, each project, and even those
+                coding practices that made me scratch my head.</p>
+
+            <p> My aim is simple: to share my years of experience and elevate the skills of those I work with. As for
+                growing up, that's optional. What isn't optional is my ongoing quest for knowledge and improvement in
+                the tech world.</p>
         </div>
     </header>
     <main class="row">
         <div class="experience col-lg-6">
             <h3>Professional Experience</h3>
-            <div>
-                <hr style="border-top: dotted 1px;" />
-            </div>            
-            <div class="exp">
-                <div class="row">
-                    <div class="exp-when col-lg-3">2023-</div>
-                    <div class="exp-company">22cans</div>
-                </div>
-                <div class="row">
-                    <div class="exp-role offset-lg-3">Senior Software Engineer</div>
-                </div>
-                <div class="row">
-                    <div class="exp-story offset-lg-3">
-                        <ul>
-                        <li>Redesigned all software pipelines, implementing efficient continuous deployment using GitHub Actions;</li>
-                        <li>Developed open-source libraries: DynaMight (for DynamoDB atomic operations) and Cascade (flexible repository pattern implementation) - they are scheduled for public release in the second half of 2023;</li>
-                        <li>Overhauled server application architecture, leveraging AWS Lambda Functions for serverless computing;</li>
-                        <li>Created a Customer Service Tool using ASP.NET, Razor, and EcmaScript 6, enabling efficient monitoring of game aspects;</li>
-                        <li>Designed and implemented a Message System API for players to exchange messages within the game; Contributed to the implementation of a scalable and reliable Guild System API for in-game guild management;</li>
-                        <li>Conducted code reviews and provided constructive feedback to team members to improve code quality and maintainability;</li>
-                        <li>Investigated and resolved software defects and issues, ensuring timely delivery of bug fixes;</li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="exp-story offset-lg-3">
-                        <span class="badge badge-secondary">C#</span>
-                        <span class="badge badge-secondary">AWS Lambda</span>
-                        <span class="badge badge-secondary">DynamoDB</span>
-                        <span class="badge badge-secondary">Docker</span>
-                        <span class="badge badge-secondary">.Net 6</span>
-                        <span class="badge badge-secondary">Redis</span>
-                        <span class="badge badge-secondary">MemoryCache</span>
-                        <span class="badge badge-secondary">ASP.NET</span>                        
-                        <span class="badge badge-secondary">Razor</span>
-                        <span class="badge badge-secondary">EcmaScript 6</span>
-                        <span class="badge badge-secondary">GitHub Actions</span>
-                        <span class="badge badge-secondary">Terraform</span>                        
-                    </div>
-                </div>
-            </div>
-            <div>
-                <hr style="border-top: dotted 1px;" />
-            </div>            
-            <div class="exp">
-                <div class="row">
-                    <div class="exp-when col-lg-3">2022-2022</div>
-                    <div class="exp-company">Ascent</div>
-                </div>
-                <div class="row">
-                    <div class="exp-role offset-lg-3">Software Architect</div>
-                </div>
-                <div class="row">
-                    <div class="exp-story offset-lg-3">
-                        Work with a group of remarkable people in areas like Science and Research.
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="exp-story offset-lg-3">
-                        <span class="badge badge-secondary">C#</span>
-                        <span class="badge badge-secondary">REST API</span>
-                        <span class="badge badge-secondary">SQL</span>
-                        <span class="badge badge-secondary">ASP.NET</span>
-                        <span class="badge badge-secondary">Docker</span>
-                        <span class="badge badge-secondary">.Net Core</span>
-                    </div>
-                </div>
-            </div>
-            <div>
-                <hr style="border-top: dotted 1px;" />
-            </div>            
-            <div class="exp">
-                <div class="row">
-                    <div class="exp-when col-lg-3">2020-2022</div>
-                    <div class="exp-company">KCSIT</div>
-                </div>
-                <div class="row">
-                    <div class="exp-role offset-lg-3">Senior Software Engineer</div>
-                </div>
-                <div class="row">
-                    <div class="exp-story offset-lg-3">
-                        Work with a group of remarkable people in areas like finance, insurance and transportation.
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="exp-story offset-lg-3">
-                        <span class="badge badge-secondary">C#</span>
-                        <span class="badge badge-secondary">Azure Function</span>
-                        <span class="badge badge-secondary">CosmosDb</span>
-                        <span class="badge badge-secondary">REST API</span>
-                        <span class="badge badge-secondary">SQL</span>
-                        <span class="badge badge-secondary">ETL</span>
-                        <span class="badge badge-secondary">Docker</span>
-                        <span class="badge badge-secondary">.Net 6</span>
-                        <span class="badge badge-secondary">.Net Core</span>
-                    </div>
-                </div>
-            </div>
-            <div>
-                <hr style="border-top: dotted 1px;" />
-            </div>        
-            <div class="exp">
-                <div class="row">
-                    <div class="exp-when col-lg-3">2020</div>
-                    <div class="exp-company">Crossover</div>
-                </div>
-                <div class="row">
-                    <div class="exp-role offset-lg-3">Software Architect</div>
-                </div>
-                <div class="row">
-                    <div class="exp-story offset-lg-3">
-                        Remote work for a Fintech company, acting on several microservices.
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="exp-story offset-lg-3">
-                        <span class="badge badge-secondary">C#</span>
-                        <span class="badge badge-secondary">MSMQ</span>
-                        <span class="badge badge-secondary">REST API</span>
-                        <span class="badge badge-secondary">T-SQL</span>
-                        <span class="badge badge-secondary">Docker</span>
-                        <span class="badge badge-secondary">.Net Core</span>
-                    </div>
-                </div>
-            </div>
-            <div>
-                <hr style="border-top: dotted 1px;" />
-            </div>
-            <div class="exp">
-                <div class="row">
-                    <div class="exp-when col-lg-3">2017-2019</div>
-                    <div class="exp-company">Farfetch</div>
-                </div>
-                <div class="row">
-                    <div class="exp-role offset-lg-3">Senior Software Engineer/Lead Engineer</div>
-                </div>
-                <div class="row">
-                    <div class="exp-story offset-lg-3">
-                        Responsible for the product page, acting as Lead Developer of this team. 
-                        The product page receives more than 10 thousand requests per minute.
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="exp-story offset-lg-3">
-                        <span class="badge badge-secondary">C#</span>
-                        <span class="badge badge-secondary">REST API</span>
-                        <span class="badge badge-secondary">Docker</span>
-                        <span class="badge badge-secondary">.Net Core</span>
-                        <span class="badge badge-secondary">React</span>
-                        <span class="badge badge-secondary">Octopus Deploy</span>
-                        <span class="badge badge-secondary">Jenkins</span>
-                    </div>
-                </div>
-            </div>
-            <div>
-                <hr style="border-top: dotted 1px;" />
-            </div>
-            <div class="exp">
-                <div class="row">
-                    <div class="exp-when col-lg-3">2009-2016</div>
-                    <div class="exp-company">TopDown Sistemas</div>
-                </div>
-                <div class="row">
-                    <div class="exp-role offset-lg-3">Software Architect</div>
-                </div>
-                <div class="row">
-                    <div class="exp-story offset-lg-3">
-                        I led the development team of SISSMO project, constantly coaching developers 
-                        to raise code quality delivered. Several times I travelled to Mozambique 
-                        to get client requirements, to present solutions and to help the client 
-                        to implant the SISSMO solution.
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="exp-story offset-lg-3">
-                        <span class="badge badge-secondary">C#</span>
-                        <span class="badge badge-secondary">PL/SQL</span>
-                        <span class="badge badge-secondary">jQuery</span>
-                        <span class="badge badge-secondary">TeamCity</span>
-                        <span class="badge badge-secondary">ASP.NET MVC</span>
-                        <span class="badge badge-secondary">Razor</span>
-                        <span class="badge badge-secondary">NHibernate</span>
-                    </div>
-                </div>
-            </div>
-            <div>
-                <hr style="border-top: dotted 1px;" />
-            </div>
-            <div class="exp">
-                <div class="row">
-                    <div class="exp-when col-lg-3">2013-2014</div>
-                    <div class="exp-company">ICAP Brasil</div>
-                </div>
-                <div class="row">
-                    <div class="exp-role offset-lg-3">Senior Developer</div>
-                </div>
-                <div class="row">
-                    <div class="exp-story offset-lg-3">
-                        ICAP is a leading markets operator and provider of post trade risk mitigation 
-                        and information services. My job here was to build a tool to help Middle Office Department 
-                        to generate reports to the company clients. The project was meant to substitute all report technologies 
-                        used by Middle Office and to monitor and validate data before submitting to the client. 
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="exp-story offset-lg-3">
-                        <span class="badge badge-secondary">C#</span>
-                        <span class="badge badge-secondary">T-SQL</span>
-                        <span class="badge badge-secondary">Comet</span>
-                        <span class="badge badge-secondary">Reflection</span>
-                        <span class="badge badge-secondary">NHibernate</span>
-                    </div>
-                </div>
-            </div>
-            <div>
-                <hr style="border-top: dotted 1px;" />
-            </div>
-            <div class="exp">
-                <div class="row">
-                    <div class="exp-when col-lg-3">2008-2011</div>
-                    <div class="exp-company">Infnet</div>
-                </div>
-                <div class="row">
-                    <div class="exp-role offset-lg-3">Microsoft Trainer</div>
-                </div>
-                <div class="row">
-                    <div class="exp-story offset-lg-3">
-                        The Instituto Infnet is the best place to learn about technology in Rio de Janeiro. 
-                        They are a Microsoft Certified Training Center and all instructors are certified trainers. 
-                        Twice I received the award for <b>Best Instructor of the Semester</b>.
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="exp-story offset-lg-3">
-                        <span class="badge badge-secondary">C#</span>
-                        <span class="badge badge-secondary">T-SQL</span>
-                        <span class="badge badge-secondary">ADO.NET</span>
-                        <span class="badge badge-secondary">ASP.NET</span>
-                    </div>
-                </div>
-            </div>
-            <div>
-                <hr style="border-top: dotted 1px;" />
-            </div>
-            <div class="exp">
-                <div class="row">
-                    <div class="exp-when col-lg-3">2002-2009</div>
-                    <div class="exp-company">Living Consultoria</div>
-                </div>
-                <div class="row">
-                    <div class="exp-role offset-lg-3">Software Architect</div>
-                </div>
-                <div class="row">
-                    <div class="exp-story offset-lg-3">
-                        Living Consultoria was my first job as Software Architect. I worked with lots of different technologies, 
-                        combining them for major clients such as Petrobras, TV Globo, Essilor and MetraTech. 
-                        I started the .net culture (in 2002) in the company, turning it into a pioneer in this technology.
-                        I designed an e-commerce system integrated to a Billing System with support to multiple countries 
-                        in Europe for VOIP sales. The team was made up of developers from Poland, England, Netherlands, 
-                        Spain and the United States.
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="exp-story offset-lg-3">
-                        <span class="badge badge-secondary">C#</span>
-                        <span class="badge badge-secondary">T-SQL</span>
-                        <span class="badge badge-secondary">ADO.NET</span>
-                        <span class="badge badge-secondary">ASP.NET</span>
-                        <span class="badge badge-secondary">ASP.NET MVC</span>
-                        <span class="badge badge-secondary">PL/SQL</span>
-                        <span class="badge badge-secondary">WCF</span>
-                        <span class="badge badge-secondary">NHibernate</span>
-                        <span class="badge badge-secondary">.Net Compact Framework</span>
-                    </div>
-                </div>
-            </div>
-            <div>
-                <hr style="border-top: dotted 1px;" />
-            </div>
         </div>
         <div class="knowledge col-lg-6">
             <div class="education">
@@ -453,7 +95,8 @@
                     </div>
                     <div class="row">
                         <div class="exp-story offset-lg-3">
-                            Understand the basics of Management 3.0 and also how to manage remote teams.
+                            Gained foundational knowledge in Management 3.0 principles, with a focus on modern
+                            leadership techniques and remote team management.
                         </div>
                     </div>
                 </div>
@@ -470,10 +113,10 @@
                     </div>
                     <div class="row">
                         <div class="exp-story offset-lg-3">
-                            Some topics covered: Self-diagnose your Leadership Profile; Recognize the different Leadership Styles and
-                            knowing how to adapt them to each employee of the team; Develop delegation and autonomy skills
-                            on your team; Define action priorities: emotional intelligence,
-                            motivation and conflict management.
+                            Leadership course where I learned to evaluate my leadership strengths and weaknesses,
+                            understand and adapt to various leadership methods for individual team members, and enhance
+                            delegation and autonomy within teams. The course also emphasized the importance of emotional
+                            intelligence, motivation, and conflict management.
                         </div>
                     </div>
                 </div>
@@ -490,24 +133,14 @@
                     </div>
                     <div class="row">
                         <div class="exp-story offset-lg-3">
-                            Course based in Software and Hardware, with an emphasis on Software.
-                        </div>
-                    </div>
-                </div>
-                <div>
-                    <hr style="border-top: dotted 1px;" />
-                </div>
-                <div class="exp">
-                    <div class="row">
-                        <div class="exp-when col-lg-3">1991-1993</div>
-                        <div class="exp-company">CEFET-RJ</div>
-                    </div>
-                    <div class="row">
-                        <div class="exp-role offset-lg-3">Electronics Technician</div>
-                    </div>
-                    <div class="row">
-                        <div class="exp-story offset-lg-3">
-                            Incomplete training in Electronics.
+                            Computer Engineering at PUC-RIO offers a comprehensive program that merges the fields of
+                            electronics and computer science. Students are equipped with the knowledge and skills
+                            required to design, develop, and test computer systems, including both hardware and software
+                            components. The curriculum emphasizes hands-on experience, real-world applications, and a
+                            strong foundation in theoretical concepts. Core subjects include digital systems,
+                            microprocessors, computer networks, embedded systems, and software engineering. Graduates
+                            are prepared to tackle challenges in various sectors, from consumer electronics to aerospace
+                            industries.
                         </div>
                     </div>
                 </div>
@@ -516,144 +149,21 @@
                 </div>
             </div>
             <div class="skills">
-                <h3>Skills, Values and other Indexers</h3>
-                <div class="row">
-                    <div class="skill-name col-lg-4">ASP.NET MVC</div>
-                    <div class="skill-level col-lg-8">
-                        <div style="width: 80%"></div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="skill-name col-lg-4">AZURE</div>
-                    <div class="skill-level col-lg-8">
-                        <div style="width: 55%"></div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="skill-name col-lg-4">BOOTSTRAP</div>
-                    <div class="skill-level col-lg-8">
-                        <div style="width: 70%"></div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="skill-name col-lg-4">C#</div>
-                    <div class="skill-level col-lg-8">
-                        <div style="width: 88%"></div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="skill-name col-lg-4">COFFEE CONSUMPTION</div>
-                    <div class="skill-level col-lg-8">
-                        <div style="width: 100%"></div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="skill-name col-lg-4">DESIGN PATTERNS</div>
-                    <div class="skill-level col-lg-8">
-                        <div style="width: 85%"></div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="skill-name col-lg-4">DOCKER</div>
-                    <div class="skill-level col-lg-8">
-                        <div style="width: 70%"></div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="skill-name col-lg-4">DOCUMENTATION</div>
-                    <div class="skill-level col-lg-8">
-                        <div style="width: 95%"></div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="skill-name col-lg-4">ENGLISH</div>
-                    <div class="skill-level col-lg-8">
-                        <div style="width: 82%"></div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="skill-name col-lg-4">FAMILY</div>
-                    <div class="skill-level col-lg-8">
-                        <div style="width: 100%"></div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="skill-name col-lg-4">FOOTBALL</div>
-                    <div class="skill-level col-lg-8">
-                        <div style="width: 20%"></div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="skill-name col-lg-4">GIT</div>
-                    <div class="skill-level col-lg-8">
-                        <div style="width: 75%"></div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="skill-name col-lg-4">JAVASCRIPT</div>
-                    <div class="skill-level col-lg-8">
-                        <div style="width: 85%"></div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="skill-name col-lg-4">KANBAN</div>
-                    <div class="skill-level col-lg-8">
-                        <div style="width: 90%"></div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="skill-name col-lg-4">LEADERSHIP</div>
-                    <div class="skill-level col-lg-8">
-                        <div style="width: 90%"></div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="skill-name col-lg-4">.NET CORE</div>
-                    <div class="skill-level col-lg-8">
-                        <div style="width: 85%"></div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="skill-name col-lg-4">NHIBERNATE</div>
-                    <div class="skill-level col-lg-8">
-                        <div style="width: 70%"></div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="skill-name col-lg-4">PRESENTATION SKILLS</div>
-                    <div class="skill-level col-lg-8">
-                        <div style="width: 88%"></div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="skill-name col-lg-4">SCRUM</div>
-                    <div class="skill-level col-lg-8">
-                        <div style="width: 85%"></div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="skill-name col-lg-4">SQL</div>
-                    <div class="skill-level col-lg-8">
-                        <div style="width: 92%"></div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="skill-name col-lg-4">STARCRAFT 2</div>
-                    <div class="skill-level col-lg-8">
-                        <div style="width: 80%"></div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="skill-name col-lg-4">TEAM PLAYER</div>
-                    <div class="skill-level col-lg-8">
-                        <div style="width: 100%"></div>
-                    </div>
-                </div>
+                <h3>Technologies, Skills and Usage Time</h3>
+                <p>The graph below illustrates my experience with various technologies, represented by the length of
+                    each bar. A longer bar indicates a longer period of time spent working with that particular
+                    technology. <b>It's important to note that shorter bars don't necessarily imply less expertise, just
+                        a
+                        shorter duration of professional use.</b></p>
+
+                <p>This graph is dynamically generated based on the technologies I've used across different work
+                    experiences. It provides a quantitative view of my skill set, capturing not just what I know but
+                    also how extensively I've worked with each technology.</p>
             </div>
         </div>
     </main>
     <footer>
-        <span>Produced with Visual Studio Code using Bootstrap and Google Fonts</span>
+        <span>Produced with Visual Studio Code using EcmaScript 6, Bootstrap, ChatGPT and Google Fonts</span>
     </footer>
 </body>
 

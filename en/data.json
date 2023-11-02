@@ -126,27 +126,6 @@
             ]
         },
         {
-            "period": "2020-2020",
-            "start": "2019-12-17",
-            "end": "2020-01-22",
-            "company": "Crossover",
-            "role": "Software Architect",
-            "achievements": [
-                "Worked on a financial market application comprising a web app, mobile app, and API",
-                "Focused on developing features for buying and selling stocks and other financial assets"
-            ],
-            "technologies": [
-                ".NET Core",
-                "ASP.NET Core",
-                "C#",
-                "Docker",
-                "Git",
-                "Microservices",
-                "REST API",
-                "SQL"
-            ]
-        },
-        {
             "period": "2017-2019",
             "start": "2017-05-08",
             "end": "2019-12-14",

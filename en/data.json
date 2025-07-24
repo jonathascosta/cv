@@ -1,8 +1,86 @@
 {
-    "experiences": [
+    "experiences": [,
         {
-            "period": "2023-",
+            "period": "2024-2025",
+            "start": "2024-05-01",
+            "end": "2025-06-30",
+            "company": "Proxify",
+            "role": "Senior Software Engineer",
+            "achievements": [
+                "Improved and automated task validation for batch creation, increasing reliability and reducing manual effort",
+                "Implemented a fully automated deployment system using PowerShell scripts",
+                "Migrated the system from .NET Framework to .NET 8, modernizing the tech stack and enhancing maintainability",
+                "Developed a proactive monitoring system that triggered email alerts when the service went offline, embedding a one-click fix action directly in the email body",
+                "Investigated and resolved software defects and issues, ensuring timely delivery of bug fixes"
+            ],
+            "technologies": [
+                ".NET",
+                ".NET Framework",
+                "ASP.NET Core",
+                "C#",
+                "COM+",
+                "CSS",
+                "DevOps",
+                "Docker",
+                "Git",
+                "Hana",
+                "HTML",
+                "JavaScript",
+                "JSON",
+                "jQuery",
+                "Monitoring",
+                "PowerShell",
+                "Razor",
+                "SAP",
+                "SQL",
+                "SQL Server",
+                "T-SQL",
+                "Unit Testing",
+                "xUnit"
+            ]
+        },
+        {
+            "period": "2024-2024",
+            "start": "2024-03-01",
+            "end": "2024-06-30",
+            "company": "YLD",
+            "role": "Senior Software Engineer",
+            "achievements": [
+                "Part of the core Payments team, maintaining and evolving the API responsible for handling all transaction workflows",
+                "Conducted code reviews and provided constructive feedback to team members to improve code quality and maintainability",
+                "Investigated and resolved software defects and issues, ensuring timely delivery of bug fixes"
+            ],
+            "technologies": [
+                ".NET",
+                ".NET Core",
+                "ASP.NET Core",
+                "Azure",
+                "Azure CosmosDb",
+                "Azure Functions",
+                "Azure Pipelines",
+                "C#",
+                "Docker",
+                "Git",
+                "Grafana",
+                "JSON",
+                "Microservices",
+                "Monitoring",
+                "Octopus Deploy",
+                "PowerShell",
+                "REST API",
+                "SQL",
+                "SQL Server",
+                "TeamCity",
+                "Terraform",
+                "Unit Testing",
+                "xUnit",
+                "YAML"
+            ]
+        },
+        {
+            "period": "2023-2024",
             "start": "2023-01-09",
+            "end": "2024-01-31",
             "company": "22cans",
             "role": "Senior Software Engineer",
             "achievements": [
